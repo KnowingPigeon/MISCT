@@ -1,34 +1,37 @@
 fileFormatVersion: 2
-guid: f839332cf05e49340b0022932c62e8f6
+guid: 182c7afc724b92c4680aabf09bb1e0d3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1545795749866439452
-    second: new alien sheet_0
+      213: 8497734573874127500
+    second: dudewalking_0
   - first:
-      213: 6854286942452294517
-    second: new alien sheet_1
+      213: -8836827082355312649
+    second: dudewalking_1
   - first:
-      213: 5809235627864238525
-    second: new alien sheet_2
+      213: -7666330391459964601
+    second: dudewalking_2
   - first:
-      213: 7677410648167250223
-    second: new alien sheet_3
+      213: 8977922251590343191
+    second: dudewalking_3
   - first:
-      213: -5810435971794959483
-    second: new alien sheet_4
+      213: -1174833951906615581
+    second: dudewalking_4
   - first:
-      213: -7236311214982456143
-    second: new alien sheet_5
+      213: 7819369351623438211
+    second: dudewalking_5
   - first:
-      213: 5766378564215467036
-    second: new alien sheet_6
+      213: 5348862694877635899
+    second: dudewalking_6
   - first:
-      213: 4673046930627262689
-    second: new alien sheet_7
+      213: 4975241673214931096
+    second: dudewalking_7
   - first:
-      213: 874541124869924813
-    second: new alien sheet_8
+      213: 2531037376272217957
+    second: dudewalking_8
+  - first:
+      213: -238143182014878876
+    second: dudewalking_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -114,7 +117,70 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: new alien sheet_0
+      name: dudewalking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82a25f62940ee570800000000000000
+      internalID: 8497734573874127500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dudewalking_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7f8ae86984d5580800000000000000
+      internalID: -8836827082355312649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dudewalking_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7495f3e7029bb9590800000000000000
+      internalID: -7666330391459964601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dudewalking_3
       rect:
         serializedVersion: 2
         x: 0
@@ -128,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ecf6e994fa3c8ae0800000000000000
-      internalID: -1545795749866439452
+      spriteID: 71a1e1388bcf79c70800000000000000
+      internalID: 8977922251590343191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new alien sheet_1
+      name: dudewalking_4
       rect:
         serializedVersion: 2
         x: 64
@@ -149,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 573a77998a15f1f50800000000000000
-      internalID: 6854286942452294517
+      spriteID: 3eea98aceb622bfe0800000000000000
+      internalID: -1174833951906615581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new alien sheet_2
+      name: dudewalking_5
       rect:
         serializedVersion: 2
         x: 128
@@ -170,14 +236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db9246f560d8e9050800000000000000
-      internalID: 5809235627864238525
+      spriteID: 38f671b1ffaf38c60800000000000000
+      internalID: 7819369351623438211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new alien sheet_3
+      name: dudewalking_6
       rect:
         serializedVersion: 2
         x: 0
@@ -191,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f297fcece44ab8a60800000000000000
-      internalID: 7677410648167250223
+      spriteID: b352580184afa3a40800000000000000
+      internalID: 5348862694877635899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new alien sheet_4
+      name: dudewalking_7
       rect:
         serializedVersion: 2
         x: 64
@@ -212,14 +278,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5838207c44f2d5fa0800000000000000
-      internalID: -5810435971794959483
+      spriteID: 89032bb11fb9b0540800000000000000
+      internalID: 4975241673214931096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new alien sheet_5
+      name: dudewalking_8
       rect:
         serializedVersion: 2
         x: 128
@@ -233,14 +299,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bc9bc22a45739b90800000000000000
-      internalID: -7236311214982456143
+      spriteID: 56731fd651d002320800000000000000
+      internalID: 2531037376272217957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: new alien sheet_6
+      name: dudewalking_9
       rect:
         serializedVersion: 2
         x: 0
@@ -254,50 +320,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1c6d78a0ca460050800000000000000
-      internalID: 5766378564215467036
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: new alien sheet_7
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e874ceac6ff9d040800000000000000
-      internalID: 4673046930627262689
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: new alien sheet_8
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc7a751058ef22c00800000000000000
-      internalID: 874541124869924813
+      spriteID: 46b6256a902f1bcf0800000000000000
+      internalID: -238143182014878876
       vertices: []
       indices: 
       edges: []
