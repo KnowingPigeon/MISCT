@@ -2,8 +2,11 @@
 Digipen MISCT project
 
 game dev lead : cameron
+
 scripting : chloe
+
 sound design : pratyush
+
 art: olivia and mihika
 
 
