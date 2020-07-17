@@ -2,33 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerController : MonoBehaviour
 {
-    public Rigidbody rb;
-    public Animator anim;
-    public float speed;
-
-    private void Start()
+    // Start is called before the first frame update
+    [Tooltip("Controls player speed")]
+    public float Speed = 10;
+    Rigidbody2D myRB;
+    void Start()
     {
-        rb = GetComponent<Rigidbody>();
-        anim = GetComponent<Animator>();
+        //grab rigid body of player
+        myRB = GetComponent<Rigidbody2D>();
     }
 
-    private void FixedUpdate()
+    // Update is called once per frame
+    void Update()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
-        Vector3 movement = new Vector3(moveHorizontal, 0, moveVertical);
 
-        if (moveVertical > 0 || moveHorizontal > 0)
-        {
-            anim.SetBool("isWalking", true);
-        }
-        else
-        {
-            anim.SetBool("isWalking", false);
-        }
+        Vector2 movement = new Vector2();
+        movement.x = Input.GetAxisRaw("Horizontal") * Speed;
+        movement.y = Input.GetAxisRaw("Vertical") * Speed;
 
-        rb.AddForce(movement * speed);
+        myRB.velocity = movement;
     }
 }
