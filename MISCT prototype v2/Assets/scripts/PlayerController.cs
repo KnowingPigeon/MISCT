@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerController : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -17,10 +18,11 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 movement = new Vector2();
-        movement.x = Input.GetAxisRaw("Horizontal") * Speed;
-        movement.y = Input.GetAxisRaw("Vertical") * Speed;
 
-        myRB.velocity = movement;
+            Vector2 movement = new Vector2();
+            movement.x = Input.GetAxisRaw("Horizontal") * Speed;
+            movement.y = Input.GetAxisRaw("Vertical") * Speed;
+
+            myRB.velocity = movement;
     }
 }
