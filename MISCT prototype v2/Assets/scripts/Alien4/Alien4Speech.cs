@@ -31,6 +31,7 @@ public class Alien4Speech : MonoBehaviour
         if (interactiontype == 1)
         {
             gameObject.GetComponent<Text>().text = "You opened it! You can have this machinery, and I get my joke book back!";
+
         }
         if (interactiontype == 2)
         {

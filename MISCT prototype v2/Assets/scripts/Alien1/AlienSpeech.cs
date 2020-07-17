@@ -9,6 +9,7 @@ public class AlienSpeech : MonoBehaviour
     AlienInput AI;
     AlienCollision AC;
     GameManager GM;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +29,7 @@ public class AlienSpeech : MonoBehaviour
         if (neptunesacquired == 0)
         {
             gameObject.GetComponent<Text>().text = "I see you have an eye for my treasure. Isn't it great? But it's MINE NOT YOURS!";
+            
             
         }
         else if (neptunesacquired == 4)

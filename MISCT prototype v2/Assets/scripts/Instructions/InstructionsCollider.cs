@@ -1,18 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Xml.Serialization;
 using UnityEngine;
 
-public class SafeCollision : MonoBehaviour
+public class InstructionsCollider : MonoBehaviour
 {
-    SafeSpeech SS;
+    InstructionsSpeech IS;
     GameManager GM;
-    public bool alien1riddlecontact = false;
-    public bool completedb = false;
+
     // Start is called before the first frame update
     void Start()
     {
-        SS = FindObjectOfType<SafeSpeech>();
+        IS = FindObjectOfType<InstructionsSpeech>();
         GM = FindObjectOfType<GameManager>();
     }
 
@@ -23,19 +21,19 @@ public class SafeCollision : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        alien1riddlecontact = true;
-        if (GM.codeoffflag == false)
+        if (GM.winflag == false)
         {
-            SS.Interact(0);
+            IS.Interact(false);
         }
-        else if (GM.codeoffflag == true)
+        else if (GM.winflag == true)
         {
-            SS.Interact(3);
+            IS.Interact(true);
         }
+
+
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        alien1riddlecontact = false;
-        SS.InteractEnd();
+        IS.InteractEnd();
     }
 }

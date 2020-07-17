@@ -10,13 +10,15 @@ public class GameManager : MonoBehaviour
     public bool songcompleted = false;
     public bool codeflag = false;
     public bool codeoffflag = false;
+    public bool winflag = false;
     AudioSource myAudio;
     [Tooltip("The sound that plays when a part is collected")]
     public AudioClip PartCollectionSound;
+    InstructionsSpeech IS;
     // Start is called before the first frame update
     void Start()
     {
-        
+        IS = FindObjectOfType<InstructionsSpeech>();
     }
 
     // Update is called once per frame
@@ -24,7 +26,8 @@ public class GameManager : MonoBehaviour
     {
         if (partscollected == 2)
         {
-            print("You win!");
+            winflag = true;
+            
         }
     }
 
