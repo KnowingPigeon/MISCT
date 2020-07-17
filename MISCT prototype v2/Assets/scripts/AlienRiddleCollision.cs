@@ -2,15 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Alien3Collision : MonoBehaviour
+public class AlienRiddleCollision : MonoBehaviour
 {
-    Alien3Speech A3S;
-    GameManager GM;
+    AlienRiddleSpeech ARS;
     // Start is called before the first frame update
     void Start()
     {
-        A3S = FindObjectOfType<Alien3Speech>();
-        GM = FindObjectOfType<GameManager>();
+        ARS = FindObjectOfType<AlienRiddleSpeech>();
     }
 
     // Update is called once per frame
@@ -20,17 +18,10 @@ public class Alien3Collision : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (GM.songflag == true)
-        {
-            A3S.Interaction(1);
-        }
-        else if (GM.songflag == false)
-        {
-            A3S.Interaction(0);
-        }
+        ARS.Interact();
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        A3S.InteractionEnd();
+        ARS.InteractEnd();
     }
 }
